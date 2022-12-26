@@ -1,0 +1,156 @@
+li,
+a {
+  list-style: none;
+  text-decoration: none;
+}
+/* шапка */
+.container {
+  width: 1605px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header {
+  padding-top: 40px;
+  padding-bottom: 205px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 284.57px;
+  height: 56.91px;
+}
+.logo-link {
+  width: 284px;
+  height: 56px;
+}
+.serch {
+  border: 230px;
+  border-bottom: 1px solid #4a4848;
+}
+.adress {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.email {
+  font-family: "Work Sans";
+
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+
+  margin-right: 50px;
+  color: #231c4b;
+}
+.tel {
+  font-family: "Work Sans";
+
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.02em;
+
+  color: #231c4b;
+}
+.icon {
+  width: 60px;
+  height: 60px;
+  background-color: #2ea3f2;
+  border-radius: 50%;
+}
+/* герой */
+.section-hero {
+}
+.hero {
+  padding-left: 110px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.overlay {
+  background-position-x: 97.5%;
+  background-position-y: top;
+
+  background-repeat: no-repeat;
+  background-image: url(./img/Placeholder.jpg);
+}
+.description-header {
+  width: 922px;
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  color: #231c4b;
+}
+.description {
+  width: 620px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #4d4d4d;
+}
+.description-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2ea3f2;
+}
+.description-link::after {
+  display: inline-block;
+
+  width: 45.8px;
+  height: 12px;
+  margin-left: 15px;
+
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/Arrow.svg);
+}
+/* статистика */
+.section-statistics {
+  margin-right: auto;
+  margin-left: auto;
+  width: 1920px;
+
+  background-color: #eeeeee;
+}
+.statistics {
+  padding-top: 140px;
+  padding-bottom: 140px;
+
+  display: flex;
+  justify-content: center;
+}
+.item {
+  margin-right: 50px;
+}
+
+.number {
+  width: 335.89px;
+
+  margin: 0px;
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: 0.02em;
+
+  color: #2ea3f2;
+}
+.statistics-item {
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+  color: #414141;
+}
