@@ -3,7 +3,7 @@ a {
   list-style: none;
   text-decoration: none;
 }
-/* шапка */
+/* шапка - header */
 .container {
   width: 1605px;
   padding-left: 15px;
@@ -61,8 +61,9 @@ a {
   background-color: #2ea3f2;
   border-radius: 50%;
 }
-/* герой */
+/* герой - hero*/
 .section-hero {
+  padding-bottom: 175px;
 }
 .hero {
   padding-left: 110px;
@@ -78,6 +79,7 @@ a {
 }
 .description-header {
   width: 922px;
+  margin: 0px;
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -95,13 +97,26 @@ a {
   color: #4d4d4d;
 }
 .description-link {
+  height: 70px;
+
+  display: inline-flex;
+  align-items: center;
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22;
   letter-spacing: 0.02em;
+
   color: #2ea3f2;
+}
+.bg-link {
+  height: 70px;
+  margin-right: 5px;
+
+  display: inline-flex;
+  align-items: center;
+
+  background-color: #e4e4e4;
 }
 .description-link::after {
   display: inline-block;
@@ -115,7 +130,7 @@ a {
   background-size: contain;
   background-image: url(./img/Arrow.svg);
 }
-/* статистика */
+/* статистика - statistics*/
 .section-statistics {
   margin-right: auto;
   margin-left: auto;
@@ -133,8 +148,12 @@ a {
 .item {
   margin-right: 50px;
 }
-
+.item:last-child {
+  width: 187px;
+  margin: 0px;
+}
 .number {
+  padding-top: 20px;
   width: 335.89px;
 
   margin: 0px;
@@ -148,9 +167,168 @@ a {
   color: #2ea3f2;
 }
 .statistics-item {
+  margin-top: 22px;
+  margin-bottom: 0px;
+
   font-family: "Montserrat";
   font-weight: 400;
   font-size: 18px;
   line-height: 180%;
   color: #414141;
+}
+.border {
+  height: 171px;
+  padding-left: 15px;
+  border-left: 1px solid #414141;
+}
+/* работа - works */
+.section-works {
+  width: 1170px;
+  padding-top: 129px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+.works {
+  width: 1170px;
+  height: 671px;
+
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+
+  display: flex;
+}
+.an {
+  margin-top: 0px;
+  margin-bottom: 13px;
+
+  font-family: "Montserrat";
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 2;
+
+  letter-spacing: 3px;
+  text-transform: uppercase;
+
+  color: #2ea3f2;
+}
+.works-header {
+  width: 294px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+
+  font-family: "Raleway";
+
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 1.35;
+
+  letter-spacing: -1px;
+
+  color: #333333;
+}
+.works-paragraph {
+  width: 470px;
+  margin-bottom: 43px;
+  margin-top: 0px;
+
+  font-family: "DM Sans";
+
+  font-size: 20px;
+  line-height: 1.6;
+
+  color: #333333;
+}
+.svg-paragraph-top {
+  margin-top: 0px;
+  margin-bottom: 22px;
+  display: inline-flex;
+  align-items: flex-start;
+
+  font-family: "DM Sans";
+
+  font-size: 16px;
+  line-height: 2;
+
+  color: #333333;
+}
+.svg-paragraph-top::before {
+  content: "";
+
+  margin-right: 13px;
+
+  width: 32px;
+  height: 32px;
+
+  background-image: url(./img/dot.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.svg-paragraph {
+  margin-top: 0px;
+  margin-bottom: 50px;
+  width: 470px;
+
+  display: flex;
+  align-items: center;
+  font-family: "DM Sans";
+
+  font-size: 16px;
+  line-height: 2;
+
+  color: #333333;
+}
+.svg-paragraph::before {
+  content: "";
+
+  margin-right: 13px;
+
+  width: 32px;
+  height: 32px;
+
+  background-image: url(./img/dot.svg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.works-link {
+  width: 221.8px;
+
+  padding-left: 64px;
+  padding-bottom: 13px;
+  padding-top: 13px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+
+  letter-spacing: 0.02em;
+  color: #2ea3f2;
+  background: linear-gradient(to right, #e4e4e4 54%, white 46%);
+}
+.works-link::after {
+  display: inline-block;
+
+  width: 45.8px;
+  height: 12px;
+  margin-left: 15px;
+
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/Arrow.svg);
+}
+.works-img {
+  margin-left: 120px;
+
+  display: flex;
+  align-items: center;
 }
