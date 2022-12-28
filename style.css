@@ -216,7 +216,6 @@ a {
   color: #2ea3f2;
 }
 .works-header {
-  width: 294px;
   margin-top: 0px;
   margin-bottom: 35px;
 
@@ -327,8 +326,66 @@ a {
   background-image: url(./img/Arrow.svg);
 }
 .works-img {
-  margin-left: 120px;
-
+  margin-right: 0px;
   display: flex;
   align-items: center;
+}
+
+/* works 2-4 page */
+.reverse {
+  flex-direction: row-reverse;
+}
+.reverse-hight {
+  flex-direction: row-reverse;
+  height: 634px;
+}
+.margin-rev {
+  margin-left: 0px;
+}
+/* works 4 page  */
+.header-width {
+  width: 479px;
+}
+/* banner */
+.section-banner {
+  width: 1924px;
+  height: 400px;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  background-image: url(./img/banner.jpg);
+}
+.banner-list {
+  align-items: center;
+  display: flex;
+}
+.banner-header {
+  font-family: "Raleway";
+
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 85px;
+
+  color: #ffffff;
+}
+.banner-text {
+  font-family: "Montserrat";
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #ffffff;
+}
+.banner-link {
+  font-family: "Montserrat";
+
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
 }
