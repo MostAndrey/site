@@ -349,18 +349,36 @@ a {
 /* banner */
 .section-banner {
   width: 1924px;
-  height: 400px;
+
+  padding-top: 150px;
 
   margin-right: auto;
   margin-left: auto;
+}
+.banner {
+  padding-left: 0px;
+  margin-bottom: 0px;
+  margin-top: 0px;
 
   background-image: url(./img/banner.jpg);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .banner-list {
+  margin-bottom: 0px;
+  padding-top: 158px;
+  padding-bottom: 158px;
+  margin-top: 0px;
+
   align-items: center;
   display: flex;
 }
 .banner-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 220px;
+
   font-family: "Raleway";
 
   font-weight: 700;
@@ -370,8 +388,13 @@ a {
   color: #ffffff;
 }
 .banner-text {
-  font-family: "Montserrat";
+  width: 638.03px;
 
+  margin-left: 100px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+
+  font-family: "Montserrat";
   font-weight: 500;
   font-size: 18px;
   line-height: 180%;
@@ -379,6 +402,96 @@ a {
   color: #ffffff;
 }
 .banner-link {
+  margin-left: 100px;
+
+  padding-left: 54px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+
+  display: flex;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  letter-spacing: 0.02em;
+  background: linear-gradient(to right, #2ea3f2 59%, #ffffff00 41%);
+  color: #ffffff;
+}
+.banner-link::after {
+  display: inline-block;
+
+  width: 45.8px;
+  height: 12px;
+  margin-left: 10px;
+
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/Arrow.svg);
+}
+/* team - команда */
+.section-team {
+  width: 1920px;
+  padding-top: 190px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.positioning {
+  width: 1575px;
+  height: 309px;
+  display: flex;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.team-content {
+  margin-right: 86px;
+}
+.team-content:nth-child(2) {
+  margin-right: 0%;
+}
+.team-border {
+  padding-left: 15px;
+  border-left: 1px solid #414141;
+}
+.team-header {
+  width: 885.94px;
+
+  margin-top: 0px;
+  margin-bottom: 60px;
+
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 142.6%;
+  letter-spacing: 0.02em;
+
+  color: #2ea3f2;
+}
+.team-paragraph {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Montserrat";
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #4d4d4d;
+}
+
+.team-link {
+  width: 217px;
+  padding-left: 54px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+
+  display: block;
   font-family: "Montserrat";
 
   font-weight: 500;
@@ -387,5 +500,313 @@ a {
 
   letter-spacing: 0.02em;
 
-  color: #ffffff;
+  background: linear-gradient(to right, #e4e4e4 54%, white 46%);
+}
+.team-link::after {
+  display: inline-block;
+
+  width: 45.8px;
+  height: 12px;
+  margin-left: 10px;
+
+  content: "";
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-image: url(./img/Arrow.svg);
+}
+.team {
+  padding-top: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+
+  display: flex;
+}
+.team-img {
+  margin-right: 50px;
+}
+.team-img:nth-child(5) {
+  margin-right: 0px;
+}
+/* button */
+.stylization {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 55px;
+
+  display: flex;
+  justify-content: center;
+}
+.button-stylization {
+  width: 30px;
+  height: 30px;
+
+  margin-right: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+
+  display: flex;
+
+  border: 1px solid rgba(0, 0, 0, 0.04);
+  border-radius: 50%;
+}
+.button-stylization:nth-child(3) {
+  margin-right: 0px;
+}
+.btn {
+  width: 8px;
+  height: 8px;
+
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border-radius: 50%;
+
+  border: 1px;
+  background-color: #414141;
+}
+.button-stylization:hover,
+.button-stylization:focus {
+  cursor: pointer;
+  border: 1px solid;
+}
+.button-stylization:hover .btn,
+.button-stylization:focus .btn {
+  background: #2ea3f2;
+}
+/* partners */
+.partners {
+  width: 1506px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+.partners-list {
+  padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partners-item {
+  margin-right: 120px;
+}
+.partners-item:nth-child(5) {
+  margin-right: 0px;
+}
+
+.partners-text1 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Gemunu Libre";
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 39px;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+.partners-text1:hover,
+.partners-text1:focus {
+  color: #2ea3f2;
+  opacity: 1;
+}
+.partners-text2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Finger Paint";
+
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 53px;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+.partners-text2:hover,
+.partners-text2:focus {
+  color: #2ea3f2;
+  opacity: 1;
+}
+.partners-text3 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+  letter-spacing: 0.02em;
+
+  cursor: pointer;
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+.partners-text3:hover,
+.partners-text3:focus {
+  color: #2ea3f2;
+  opacity: 1;
+}
+.partners-text4 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Caveat Brush";
+
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 45px;
+  letter-spacing: 0.02em;
+
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+.partners-text4:hover,
+.partners-text4:focus {
+  color: #2ea3f2;
+  opacity: 1;
+}
+.partners-text5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Graduate";
+
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 41px;
+  letter-spacing: 0.02em;
+
+  color: #4d4d4d;
+  opacity: 0.5;
+}
+.partners-text5:hover,
+.partners-text5:focus {
+  color: #2ea3f2;
+  opacity: 1;
+}
+/* footer */
+.section-footer {
+  width: 1920px;
+  padding-top: 164px;
+  padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  background-color: #eeeeee;
+}
+/* column 1 */
+.footer-column {
+  width: 284.57px;
+  height: 333px;
+}
+.column-list {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  padding-left: 0px;
+}
+.column-item {
+}
+.column-text {
+  width: 264px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  margin-bottom: 0px;
+
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 180%;
+
+  color: #414141;
+}
+.column-text > .text-span {
+  font-weight: 600;
+  padding-bottom: 37px;
+
+  display: block;
+}
+/* column 1*/
+.footer-column {
+  margin-left: 264px;
+  margin-right: 100px;
+}
+.column-icon {
+}
+.icon-list {
+  padding-left: 0px;
+
+  display: flex;
+}
+.icon-item {
+  width: 48px;
+  height: 48px;
+  margin-right: 8px;
+
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.icon-item:nth-child(4) {
+  margin-right: 0px;
+}
+.icon-svg {
+}
+.svg {
+  width: 24px;
+  height: 24px;
+}
+/* column 2 */
+.footer-column2 {
+  width: 313px;
+  height: 281px;
+  margin-right: 100px;
+}
+.column {
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Raleway";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28px;
+
+  color: #2ea3f2;
+}
+
+/* column 3 */
+.footer-column3 {
+  width: 183px;
+  height: 281px;
+
+  margin-right: 100px;
+}
+.column3-text {
+  width: 183px;
+  height: 281px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+
+  color: #414141;
+}
+/* column 4 */
+.footer-column4 {
+  width: 311px;
+  margin-right: 264px;
 }
