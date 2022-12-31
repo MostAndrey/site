@@ -699,31 +699,35 @@ a {
 /* footer */
 .section-footer {
   width: 1920px;
-  padding-top: 164px;
-  padding-bottom: 100px;
+
   margin-left: auto;
   margin-right: auto;
 
-  display: flex;
   background-color: #eeeeee;
 }
+.flex {
+  padding-top: 164px;
+  padding-bottom: 100px;
+
+  display: flex;
+}
+
 /* column 1 */
 .footer-column {
-  width: 284.57px;
-  height: 333px;
+  margin-left: 264px;
+  margin-right: 100px;
 }
 .column-list {
+  width: 284.57px;
   margin-bottom: 0px;
   margin-top: 0px;
   padding-left: 0px;
 }
-.column-item {
-}
+
 .column-text {
   width: 264px;
-  margin-top: 0px;
+  margin-top: 8px;
   margin-bottom: 35px;
-  margin-bottom: 0px;
 
   font-family: "Montserrat";
   font-size: 18px;
@@ -737,22 +741,24 @@ a {
 
   display: block;
 }
-/* column 1*/
-.footer-column {
-  margin-left: 264px;
-  margin-right: 100px;
-}
-.column-icon {
-}
+/* footer - icon */
+
 .icon-list {
   padding-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 
   display: flex;
 }
 .icon-item {
   width: 48px;
-  height: 48px;
   margin-right: 8px;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 
   border-radius: 50%;
   background-color: #ffffff;
@@ -760,21 +766,43 @@ a {
 .icon-item:nth-child(4) {
   margin-right: 0px;
 }
-.icon-svg {
-}
-.svg {
+
+.svg-fb {
   width: 24px;
   height: 24px;
+
+  background-image: url(./img/icon/fb.svg);
+  background-repeat: no-repeat;
+}
+.svg-twitter {
+  width: 24px;
+  height: 24px;
+
+  background-image: url(./img/icon/twitter.svg);
+  background-repeat: no-repeat;
+}
+.svg-instagram {
+  width: 24px;
+  height: 24px;
+
+  background-image: url(./img/icon/instagram.svg);
+  background-repeat: no-repeat;
+}
+.svg-youtube {
+  width: 24px;
+  height: 24px;
+
+  background-image: url(./img/icon/youtube.svg);
+  background-repeat: no-repeat;
 }
 /* column 2 */
 .footer-column2 {
   width: 313px;
-  height: 281px;
   margin-right: 100px;
 }
 .column {
-  margin-top: 0px;
   margin-bottom: 0px;
+  margin-top: 27px;
 
   font-family: "Raleway";
   font-weight: 600;
@@ -783,22 +811,30 @@ a {
 
   color: #2ea3f2;
 }
+.column2-text {
+  width: 307px;
+  margin-top: 8px;
+  margin-bottom: 0px;
 
+  font-family: "Montserrat";
+
+  font-size: 18px;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+
+  color: #414141;
+}
 /* column 3 */
 .footer-column3 {
   width: 183px;
-  height: 281px;
 
   margin-right: 100px;
 }
 .column3-text {
-  width: 183px;
-  height: 281px;
-  margin-top: 0px;
   margin-bottom: 0px;
+  margin-top: 8px;
 
   font-family: "Montserrat";
-  font-weight: 400;
   font-size: 18px;
   line-height: 35px;
   letter-spacing: 0.02em;
@@ -809,4 +845,82 @@ a {
 .footer-column4 {
   width: 311px;
   margin-right: 264px;
+}
+.footer-column4 > .column {
+  margin-bottom: 22px;
+}
+.input-block {
+  display: flex;
+  align-items: center;
+}
+.column-search {
+  width: 251px;
+  height: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-right-width: 0px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  font-family: "Montserrat";
+  font-size: 22px;
+  line-height: 22px;
+  color: #414141;
+
+  border: 1px solid #414141;
+  border-radius: 10px 0px 0px 10px;
+  background-color: #eeeeee;
+}
+.column-button {
+  width: 60px;
+  height: 56px;
+
+  cursor: pointer;
+
+  background: #2ea3f2;
+  border: 1px solid transparent;
+
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 10px 10px 0px;
+}
+.column-button::after {
+  content: "";
+  margin-right: auto;
+  margin-left: auto;
+
+  display: flex;
+
+  width: 24px;
+  height: 24px;
+
+  background-image: url(./img/telegram.svg);
+
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+/* copyright */
+.footer-border {
+  max-width: 1596px;
+  margin-right: auto;
+  margin-left: auto;
+
+  border-top: 1px solid #414141;
+}
+.copyright-text {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+
+  font-family: "Work Sans";
+  font-size: 14px;
+  line-height: 16px;
+  color: #231c4b;
+
+  text-align: center;
+}
+.footer-span {
+  color: #2ea3f2;
 }

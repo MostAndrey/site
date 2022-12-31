@@ -24,9 +24,11 @@
   </head>
 
   <body>
+    <h1>body</h1>
     <header>
       <!-- шапка -->
       <section class="header container">
+        <h2>header</h2>
         <div class="logo">
           <a class="logo-link" href="index.html"></a
           ><img src="./img/logo.png" alt="logo" />
@@ -47,9 +49,9 @@
     <main>
       <section class="section-hero overlay container">
         <div class="hero">
-          <h1 class="description-header">
+          <h2 class="description-header">
             We’re The ultimate partner for your business
-          </h1>
+          </h2>
           <p class="description">
             We serve businesses globally to help grow, transform, automate and
             operate more effectively. Our philosophy drives results. We’re
@@ -63,6 +65,7 @@
       </section>
       <!-- статистика -->
       <section class="section-statistics">
+        <h2>statistics</h2>
         <ul class="statistics">
           <li class="item border">
             <p class="number">770</p>
@@ -271,19 +274,19 @@
 
         <ul class="team">
           <li class="team-img">
-            <img src="./img/team1.jpg" alt="1" width="344px" />
+            <img src="./img/team1.jpg" alt="1" />
           </li>
           <li class="team-img">
-            <img src="./img/Team 2.jpg" alt="2" width="344px" />
+            <img src="./img/Team2.jpg" alt="2" />
           </li>
           <li class="team-img">
-            <img src="./img/Team 3.jpg" alt="3" width="344px" />
+            <img src="./img/Team3.jpg" alt="3" />
           </li>
           <li class="team-img">
-            <img src="./img/Team 4.jpg" alt="4" width="344px" />
+            <img src="./img/Team4.jpg" alt="4" />
           </li>
           <li class="team-img">
-            <img src="./img/Team 5.jpg" alt="5" width="344px" />
+            <img src="./img/Team5.jpg" alt="5" />
           </li>
         </ul>
         <!-- stylization - кнопки -->
@@ -320,60 +323,83 @@
       </section>
       <!-- footer -->
       <section class="section-footer">
+        <h2>Footer</h2>
         <!-- column 1 -->
-        <div class="footer-column">
-          <ul class="column-list">
-            <li class="column-item">
-              <img src="./img/logo.png" alt="logo" width="284px" />
-            </li>
-            <li>
+        <div class="flex">
+          <div class="footer-column">
+            <a
+              ><img class="column-list" src="./img/logo.png" alt="logo" />
+
               <p class="column-text">
                 <span class="text-span">B3 Alliance, Inc. (HQ)</span> Gotham
                 Center <br />
                 28-07 Jackson Ave 16th Floor Long Island City NY 11101
-              </p>
-            </li>
-            <div class="column-icon">
-              <ul class="icon-list">
-                <li class="icon-item">
-                  <a class="icon-svg" href="">
-                    <svg class="svg"><use href="./img/icon/fb.svg"></use></svg>
-                  </a>
-                </li>
-                <li class="icon-item">
-                  <a class="icon-svg" href="./img/icon/twitter.svg"></a>
-                </li>
-                <li class="icon-item">
-                  <a class="icon-svg" href="./img/icon/instagram.svg"></a>
-                </li>
-                <li class="icon-item">
-                  <a class="icon-svg" href="./img/icon/youtube.svg"></a>
-                </li>
-              </ul>
+              </p></a
+            >
+
+            <ul class="icon-list">
+              <li class="icon-item">
+                <a href="">
+                  <svg class="svg-fb">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="">
+                  <svg class="svg-twitter">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="">
+                  <svg class="svg-instagram">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="icon-item">
+                <a href="">
+                  <svg class="svg-youtube">
+                    <use href=""></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <!-- column 2 -->
+          <div class="footer-column2">
+            <h2 class="column">Insights</h2>
+            <p class="column2-text">
+              Knowledge Base Insights Management & Strategy Insights Business
+              Development & Growth Marketing & Branding Blog Data, IT, & Cloud
+              Blog Hosting & Domains Service Academy
+            </p>
+          </div>
+          <!-- column 3 -->
+          <div class="footer-column3">
+            <h2 class="column">Reference</h2>
+            <p class="column3-text">
+              Sitemap Case Studies Labs & Tools Reference Guides White Papers
+              Social Media Feeds About Us
+            </p>
+          </div>
+          <!-- colum 4 -->
+          <div class="footer-column4">
+            <h2 class="column">Subscribe Us</h2>
+            <div class="input-block">
+              <input class="column-search" type="search" />
+              <button class="column-button" type="button"></button>
             </div>
-          </ul>
+          </div>
         </div>
-        <!-- column 2 -->
-        <div class="footer-column2">
-          <p class="column">Insights</p>
-          <p class="column-text">
-            Knowledge Base Insights Management & Strategy Insights Business
-            Development & Growth Marketing & Branding Blog Data, IT, & Cloud
-            Blog Hosting & Domains Service Academy
+        <!-- copyright -->
+        <div class="copyright footer-border">
+          <p class="copyright-text">
+            Copyright © 2022 B3 Alliance, Inc. | Privacy Policy | Terms of Use |
+            <span class="footer-span">(844) GO-B3ALLIANCE</span>
           </p>
-        </div>
-        <!-- column 3 -->
-        <div class="footer-column3">
-          <p class="column">Reference</p>
-          <p class="column3-text">
-            Sitemap Case Studies Labs & Tools Reference Guides White Papers
-            Social Media Feeds About Us
-          </p>
-        </div>
-        <!-- colum 4 -->
-        <div class="footer-column4">
-          <p class="column">Subscribe Us</p>
-          <input class="colum-search" type="search" />
         </div>
       </section>
     </main>
